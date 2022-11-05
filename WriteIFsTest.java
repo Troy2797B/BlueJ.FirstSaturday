@@ -11,8 +11,7 @@ import org.junit.Test;
  * @author  kyounger
  * @version 1.3
  */
-public class WriteIFsTest
-{
+public class WriteIFsTest {
     private static final double _0_5 = 0.5;
     private static final double _0_04 = 0.04;
 
