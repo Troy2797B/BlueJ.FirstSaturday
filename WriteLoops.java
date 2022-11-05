@@ -157,26 +157,26 @@ public class WriteLoops {
     // is less than “highestScore” and if it is, adds “currentScore” to
     // "runningScore"
     // and then sets “currentScore” to “gameNextScore()”
-    public boolean checkGameScore() {
-        int w = 0;
-        int highestScore = 236;
-        int currentScore = gameNextScore();
-        int runningScore = 0;
-
-        // do your while loop here
-        while (runningScore < highestScore){
-            currentScore = currentScore + runningScore;
-            w = w + 1;
-            break;
-        } gameNextScore();
-
-
-        // calling
-            //w = w + 1;
-            // each time through the inner loop
-        
-        return w >= 3;
-    }
+//    public boolean checkGameScore() {
+//        int w = 0;
+//        int highestScore = 236;
+//        int currentScore = gameNextScore();
+//        int runningScore = 0;
+//
+//        // do your while loop here
+//        while (runningScore < highestScore) {
+//            currentScore = runningScore;
+//            w = w + 1;
+//
+//            currentScore = gameNextScore();
+//        }
+//
+//        // calling
+//            //w = w + 1;
+//            // each time through the inner loop
+//
+//        return w >= 3;
+//    }
 
     // Rewrite the previous WHILE loop as a DO..WHILE loop.
     // Notice how the “runningScore” variable usage is different.

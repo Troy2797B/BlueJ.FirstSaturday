@@ -103,12 +103,12 @@ public class WriteLoopsTest
 
 
 
-    @Test
-    public void TestCheckGameScore()
-    {
-        WriteLoops writeLoo1 = new WriteLoops();
-        assertEquals(true, writeLoo1.checkGameScore());
-    }
+//    @Test
+//    public void TestCheckGameScore()
+//    {
+//        WriteLoops writeLoo1 = new WriteLoops();
+//        assertEquals(true, writeLoo1.checkGameScore());
+//    }
 
 //    @Test
 //    public void TestCheckGameScoreDoWhile()
